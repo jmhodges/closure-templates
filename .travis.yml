@@ -3,13 +3,6 @@ language: java
 jdk:
   - oraclejdk8
 
-# Required because the default version of oraclejdk8 is 1.8.0_31 and
-# it has bugs.
-addons:
-  apt:
-    packages:
-      - oracle-java8-installer
-
 cache:
   - apt
   - directories:
